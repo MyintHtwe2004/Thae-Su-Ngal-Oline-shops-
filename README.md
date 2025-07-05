@@ -1,1 +1,107 @@
 # Thae-Su-Ngal-Oline-shops-
+<!DOCTYPE html>
+<html lang="my">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Myint Store - ဖက်ရှင်အဝတ်အစား</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      color: #333;
+    }
+    .product {
+      display: inline-block;
+      width: 45%;
+      margin: 10px;
+      background-color: white;
+      padding: 10px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .product img {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
+    .price {
+      font-size: 18px;
+      color: #444;
+      margin-top: 8px;
+    }
+    .contacts {
+      margin-top: 30px;
+    }
+    .contacts a {
+      display: inline-block;
+      margin: 10px;
+      text-decoration: none;
+      color: white;
+      background-color: #1877f2;
+      padding: 10px 20px;
+      border-radius: 5px;
+    }
+    .telegram {
+      background-color: #30a3e6;
+    }
+    .qr {
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>👗 Myint Store - Fashion Items</h1>
+
+  <!-- Products -->
+  <div class="products">
+    <div class="product">
+      <img src="img1.jpeg" alt="Product 1"/>
+      <div class="price">20,000 MMK</div>
+    </div>
+    <div class="product">
+      <img src="img2.jpeg" alt="Product 2"/>
+      <div class="price">20,000 MMK</div>
+    </div>
+    <div class="product">
+      <img src="img3.jpeg" alt="Product 3"/>
+      <div class="price">20,000 MMK</div>
+    </div>
+    <div class="product">
+      <img src="img4.jpeg" alt="Product 4"/>
+      <div class="price">20,000 MMK</div>
+    </div>
+    <div class="product">
+      <img src="img5.jpeg" alt="Product 5"/>
+      <div class="price">20,000 MMK</div>
+    </div>
+    <div class="product">
+      <img src="img6.jpeg" alt="Product 6"/>
+      <div class="price">20,000 MMK</div>
+    </div>
+    <div class="product">
+      <img src="img7.jpeg" alt="Product 7"/>
+      <div class="price">20,000 MMK</div>
+    </div>
+    <div class="product">
+      <img src="img8.jpeg" alt="Product 8"/>
+      <div class="price">20,000 MMK</div>
+    </div>
+  </div>
+
+  <!-- Contacts -->
+  <div class="contacts">
+    <a href="https://www.facebook.com/share/1EUmVUdZ3z/?mibextid=wwXIfr" target="_blank">📘 Facebook</a>
+    <a class="telegram" href="https://t.me/Muyaung" target="_blank">📲 Telegram</a>
+    <div class="qr">
+      <img src="telegram-qr.jpeg" alt="Telegram QR" width="150" />
+    </div>
+    <p>💳 KBZPay - 09695271946</p>
+  </div>
+</body>
+</html>
